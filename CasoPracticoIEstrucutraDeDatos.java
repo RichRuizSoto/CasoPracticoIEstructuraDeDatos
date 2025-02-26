@@ -34,7 +34,7 @@ public class CasoPracticoIEstrucutraDeDatos {
         
         pila.push(tren.get(indice));
         
-        while (!pila.isEmpty() && pila.peek() == num) {
+        while (/*pila.size() != 0 && */pila.peek() == num) {
             pila.pop();
             num++; 
         }
